@@ -1,0 +1,11 @@
+.about {
+font-size: large;
+padding-top: 50px;
+background-image: url("../Images/double-bubble-outline.png");
+height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    min-height: 100vh;
+}
+

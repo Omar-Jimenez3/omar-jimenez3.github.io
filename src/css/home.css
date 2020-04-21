@@ -1,6 +1,15 @@
+
 .home {
     margin: auto;
-    width: 50%;
-    padding: 150px;
-    background-image: url(/Users/omar/Desktop/omar-jimenez3.github.io/src/Images/portfolio.jpeg);
-  }
+    height: auto;
+    width: auto;
+    padding: 100px;
+    background-color: slategrey ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+
+

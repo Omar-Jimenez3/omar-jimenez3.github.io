@@ -22,7 +22,7 @@ function Projects(){
                     </a>
 
         </div>
-        <h3> As part of a team created a react app that is a design pad, where users can drag and drop 
+        <h3> As part of a team created a simple react app that is a design pad, where users can drag and drop 
             inputs to change the pads. </h3>
 
         <img src={image} className="App-logo" alt="" />

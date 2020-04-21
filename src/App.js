@@ -1,24 +1,44 @@
 import React from 'react';
-import logo from './omar.jpg';
 import './App.css';
+import Home from "./components/home";
+import About from "./components/about"
+import Projects from './components/projects';
+import Contact from './components/contact'
+import Navbar from './components/navbar'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My name is Omar and i'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/omar-jimenez3"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
+      <Router>
+        <Navbar/>
+    <Switch>
+      <Route path = "/About"> 
+        <About/>
+      </Route>
+
+      <Route path = "/Projects">
+        <Projects/>
+      </Route>
+
+      <Route path = "/Home">
+        <Home/>
+
+      </Route>
+      <Route path = "/Contact">
+        <Contact/>
+
+      </Route>
+
+    </Switch>
+    
+      </Router>
+      
+      
+
+
+      
     </div>
   );
 }
